@@ -26,17 +26,23 @@
     border-radius: 4px;
 }
 
-.body {
+.main-body {
+    display: flex;
     font-family: Arial, sans-serif;
-    margin: 0;
+
 }
 
-.footer{
+.#main-footer{
+    margin: 40px;
+    padding: 20px;
+}
+
+.fm-content{
     margin: 40px;
     padding: 20px;
     display: flex;
     justify-content: flex-start
     flex-direction: row;
-    align-items: flex-start;
+    align-items: space-between;
     background-color: #94928e;
 }
